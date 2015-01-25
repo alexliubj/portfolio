@@ -1,34 +1,26 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8">
-    <!--[if IE]>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <![endif]-->
-    <title>Alex Liu</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="Content/foundation/foundation.css" rel="stylesheet" />
-    <link href="css/custom.css" rel="stylesheet" />
-    <link href="Content/foundation/normalize.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Carnival - Single Page Responsive Portfolio Template</title>
+
+    <!-- CSS Files -->
     <link href="css/reset.css" rel="stylesheet" />
-    <link href="css/portfolio.css" rel="stylesheet" />
-    <link href="css/ico.css" rel="stylesheet" />
-    <link href="css/flexslider.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/slider.css" rel="stylesheet" />
+    <link href="css/camera/css/camera.css" rel="stylesheet" />
 
-    <!-- FAVICON-->
-    <link rel="shortcut icon" href="images/favicon.ico">
-
-    <!-- Google Webfont -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,300,300italic,200,600,700,900' rel='stylesheet' type='text/css'>
-
+    <link href="Content/foundation/foundation.css" rel="stylesheet" />
+    <link href="Content/foundation/normalize.css" rel="stylesheet" />
+    <link href="Content/fonts/ligature.css" rel="stylesheet" />
 </head>
 <body>
-    <div class=" ">
+    <div class="header">
         <div class="row">
-            <div class="twelve columns">
+            <div class="large-12 columns ">
                 <ul class="navigation">
                     <li class="current"><a href="#top">Home</a></li>
                     <li><a href="#services">Services</a></li>
@@ -45,6 +37,34 @@
     </div>
 
     <div class="clear"></div>
+    <div class="row">
+        <div id="camera_wrap">
+            <div data-src="Content/images/andromeda-orbit.jpg">
+                <div style="position:absolute;bottom:10%;left:3%;padding:10px;width:50%;" class="fadeIn camera_effected camera_caption cap1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+            </div>
+            <div data-src="Content/images/launch-orbit.jpg"><div class="camera_caption fadeFromBottom cap2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div></div>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="large-4 columns">
+            <h3><span class="dropcap_red lsf-icon-dropcap" title="camera"></span> Photo Community</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra, lacus id interdum ultrices, elit metus semper tellus, vel lacinia libero purus vitae risus.</p>
+        </div>
+
+
+        <div class="large-4 columns">
+            <h3><span class="dropcap_black lsf-icon-dropcap" title="cloud"></span> Upload Photos</h3>
+            <p> Vivamus tortor tellus, rutrum sit amet mollis vel, imperdiet consectetur orci. Mauris pharetra congue enim, et sagittis lectus congue ut. Cum sociis natoque penatibus.</p>
+        </div>
+
+
+        <div class="large-4 columns">
+            <h3><span class="dropcap_black lsf-icon-dropcap" title="video"></span> Video Tutorials</h3>
+            <p>Sed vitae nisi leo. Nulla tincidunt, turpis non gravida pharetra, diam sapien posuere massa, non luctus leo mauris at sapien. Donec ut fermentum eros.</p>
+        </div>
+
+    </div>
 
     <!-- Main wrap start -->
     <div id="top" class="section">
@@ -52,19 +72,168 @@
             <div class="row">
                 <div class="twelve columns logo-wrap">
 
-                    <h1>Carnival</h1>
-
-                    <h5>Shred on weidea.net</h5>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Javascript -->
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/jquery.magnific-popup.js"></script>
-    <script src="js/foundation/foundation.js"></script>
-    <script src="js/foundation/foundation.topbar.js"></script>
-    <script src="js/foundation/foundation.section.js"></script>
+    <h2 style="text-align:center">Discover Hidden Treasures</h2>
+
+    <div class="row">
+
+        <article class="large-6 columns">
+            <div class="panel">
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus fermentum metus, id commodo sapien. Donec cursus fermentum metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus fermentum metus, id commodo sapien. Donec cursus fermentum metus.</p>
+                <a href="#" class="button secondary small radius">Learn More &raquo;</a>
+            </div>
+        </article>
+
+
+        <article class="large-6 columns">
+            <div class="panel">
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus fermentum metus, id commodo sapien. Donec cursus fermentum metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus fermentum metus, id commodo sapien. Donec cursus fermentum metus.</p>
+                <a href="#" class="button secondary small radius">Learn More &raquo;</a>
+            </div>
+        </article>
+
+    </div>
+
+
+    <div class="row">
+
+        <div class="large-4 columns">
+            <ul class="pricing-table">
+                <li class="title">Standard</li>
+                <li class="price">$99.99</li>
+                <li class="description">An awesome description</li>
+                <li class="bullet-item">1 Database</li>
+                <li class="bullet-item">5GB Storage</li>
+                <li class="bullet-item">20 Users</li>
+                <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
+            </ul>
+
+        </div>
+        <div class="large-4 columns">
+            <ul class="pricing-table">
+                <li class="title">Standard</li>
+                <li class="price">$99.99</li>
+                <li class="description">An awesome description</li>
+                <li class="bullet-item">1 Database</li>
+                <li class="bullet-item">5GB Storage</li>
+                <li class="bullet-item">20 Users</li>
+                <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
+            </ul>
+
+        </div>
+        <div class="large-4 columns">
+            <ul class="pricing-table">
+                <li class="title">Standard</li>
+                <li class="price">$99.99</li>
+                <li class="description">An awesome description</li>
+                <li class="bullet-item">1 Database</li>
+                <li class="bullet-item">5GB Storage</li>
+                <li class="bullet-item">20 Users</li>
+                <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+    <section class="section_dark">
+
+        <div class="row">
+
+            <h2>Latest Photos by Our Members</h2>
+
+            <div class="large-2 columns">
+                <a href="#" class="th"><img src="Content/images/thumb3.jpg" width="100" height="100" alt="desc" /></a>
+            </div>
+            <div class="large-2 columns">
+                <a href="#" class="th"><img src="Content/images/thumb3.jpg" width="100" height="100" alt="desc" /></a>
+            </div>
+
+            <div class="large-2 columns">
+                <a href="#" class="th"><img src="Content/images/thumb3.jpg" width="100" height="100" alt="desc" /></a>
+            </div>
+
+            <div class="large-2 columns">
+                <a href="#" class="th"><img src="Content/images/thumb3.jpg" width="100" height="100" alt="desc" /></a>
+            </div>
+            <div class="large-2 columns">
+                <a href="#" class="th"><img src="Content/images/thumb3.jpg" width="100" height="100" alt="desc" /></a>
+            </div>
+
+            <div class="large-2 columns">
+                <a href="#" class="th"><img src="Content/images/thumb3.jpg" width="100" height="100" alt="desc" /></a>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <div class="clear"></div>
+
+    <section>
+        <div class="row">
+            <span class="label">Regular Label</span>
+            <span class="[success alert secondary] [round radius] label">Advanced Label</span>
+        </div>
+    </section>
+    <section>
+
+        <div class="row">
+            <div class="large-4 columns">iOS development</div>
+            <div class="large-8 columns">
+                <div class="progress ">
+                    <span class="meter" style="width: 75%"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-4 columns">iOS development</div>
+            <div class="large-8 columns">
+                <div class="progress ">
+                    <span class="meter" style="width: 75%"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-4 columns">iOS development</div>
+            <div class="large-8 columns">
+                <div class="progress ">
+                    <span class="meter" style="width: 75%"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="Scripts/jquery-1.8.2.min.js"></script>
+    <script src="Scripts/foundation/foundation.js"></script>
+    <script src="css/camera/scripts/camera.min.js"></script>
+    <script src="Scripts/easing/jquery.easing.1.3.js"></script>
+    <script src="css/camera/scripts/jquery.mobile.customized.min.js"></script>
+    <script src="Scripts/default.js"></script>
+    <script type="text/javascript">function startCamera() { $('#camera_wrap').camera({ fx: 'scrollLeft', time: 2000, loader: 'none', playPause: false, height: '40%', pagination: true }); } $(function () { startCamera() });</script>
+    <div class="row">
+        <div class="large-12 column">
+            <hr>
+        </div>
+    </div>
+
+
+    <footer>
+
+            <div class="row">
+                <div class="large-12 columns footer">
+                    <a href="http://twitter.com/dieterarno" class="lsf-icon" style="font-size:16px; margin-right:15px" title="twitter">Twitter</a>
+                    <a href="http://csstemplateheaven.com/csstemplateheaven" class="lsf-icon" style="font-size:16px; margin-right:15px" title="facebook">Facebook</a>
+                    <a href="http://csstemplateheaven.com/csstemplateheaven" class="lsf-icon" style="font-size:16px; margin-right:15px" title="pinterest">Pinterest</a>
+                    <a href="http://twitter.com/dieterarno" class="lsf-icon" style="font-size:16px" title="instagram">Instagram</a>
+                </div>
+            </div>
+    </footer>
+   
 </body>
 </html>
