@@ -7,6 +7,8 @@
    ------------------------------------------------------------------------------		
 */
 
+.map-placeholder {background:#202020;border-top:1px solid #ccc;}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -22,6 +24,9 @@ p {
 	color:#666;
 }
 
+.startPading {
+    padding-top:5.55rem;
+}
 .no-padding {padding:0px;}
 .space10 {margin-bottom:10px;}
 .space15 {margin-bottom:15px;}
@@ -41,8 +46,6 @@ p {
 /* OTHER STYLES
 /*-----------------------------------------------------------------------------------*/
 
-.cover {background:url(../images/overlay.png);height:100%;width:100%;}
-#top { background:#242424 url(../demo/top.jpg) no-repeat;background-size:cover;}
 #services   { background:#fff;padding:80px 0 65px 0;position:relative;}
 #portfolio  { background:#181818;padding:80px 0;position:relative;}
 #works      { background:#fff;padding:80px 0;position:relative;}
