@@ -58,6 +58,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="privacy.html" />
+    <Content Include="Scripts\vendor\custom.modernizr.js" />
+    <Content Include="Scripts\vendor\jquery.js" />
+    <Content Include="Scripts\vendor\jquery.magnific-popup.js" />
+    <Content Include="Scripts\vendor\respond.js" />
+    <Content Include="Scripts\vendor\zepto.js" />
     <Content Include="terms.html" />
     <Content Include="Content\fonts\ligature.css" />
     <Content Include="Content\fonts\LigatureSymbols-2.07.svg" />
