@@ -57,6 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="privacy.html" />
+    <Content Include="terms.html" />
     <Content Include="Content\fonts\ligature.css" />
     <Content Include="Content\fonts\LigatureSymbols-2.07.svg" />
     <Content Include="Content\images\Alex.PNG" />
