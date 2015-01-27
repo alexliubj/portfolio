@@ -27,6 +27,9 @@ p {
 .startPading {
     padding-top:5.55rem;
 }
+.startPadingMap {
+            height: 60%;
+}
 .no-padding {padding:0px;}
 .space10 {margin-bottom:10px;}
 .space15 {margin-bottom:15px;}
@@ -124,4 +127,8 @@ p {
 	text-align:center;
 	font-size:14px;
 	font-weight:400;
+}
+
+.socialnetwork {
+    text-align:center;
 }
