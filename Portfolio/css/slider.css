@@ -5,6 +5,13 @@
     // Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
 */
 
+/*
+    sider.css
+    Author: BO LIU(Alex)
+    Website name: BO LIU (Alex) Portfolio
+    Description: for slider
+*/
+
 .camera_caption > div {opacity: 0.85;filter:alpha(opacity=85);}
 
 .camera_prevThumbs, .camera_nextThumbs, .camera_prev, .camera_next, .camera_commands, .camera_thumbs_cont {opacity: 0.85;filter:alpha(opacity=85);background-color:rgb(240, 240, 240);}

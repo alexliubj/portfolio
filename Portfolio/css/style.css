@@ -1,13 +1,14 @@
 
-/* 
-   ------------------------------------------------------------------------------
-	Global Styles
-   ------------------------------------------------------------------------------		
+/*
+    style.css
+    Author: BO LIU(Alex)
+    Website name: BO LIU (Alex) Portfolio
+    Description: header, footer, navigation
 */
 .section_dark {background: #262626; border-top: 0; border-bottom: 1px dotted #999; padding: 20px 0 40px}
 .section_dark h2 {color: #999999; margin: 0 0 20px 0; font-size: 22px; text-align: center}
 /*
-    For map
+    For map style
 */
 .map-placeholder {background:#202020;border-top:1px solid #ccc;}
 
