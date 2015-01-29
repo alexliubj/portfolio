@@ -17,6 +17,27 @@
 </head>
 <body>
     <div class="header">
+        <nav class="top-bar select-menu" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                    <h1><a href="#">Alex's Porfolio</a></h1>
+                </li>
+                <li class="toggle-topbar menu-icon">
+                    <a href="#"><span>Menu</span></a>
+                </li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="left">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About me</a></li>
+                    <li class="current"><a href="#">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="github.html">MyGithub</a></li>
+                    <li><a href="contactme.html">Contact me</a></li>
+                </ul>
+            </section>
+        </nav>
+
         <div class="row">
             <div class="large-12 columns ">
                 <ul class="navigation">
@@ -165,5 +186,12 @@
             </div>
         </div>
     </footer>
+
+    <script src="Scripts/jquery1.7/jquery-1.8.2.min.js"></script>
+    <script src="Scripts/foundation/foundation.js"></script>
+    <script src="Scripts/foundation/foundation.topbar.js"></script>
+    <script>
+    $(document).foundation();
+    </script>
 </body>
 </html>

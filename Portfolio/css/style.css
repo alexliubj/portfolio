@@ -38,7 +38,7 @@ p {
 .no-padding {padding:0px;}
 
 /*
-    Padding ggto bottom
+    Padding to bottom
 */
 .space10 {margin-bottom:10px;}
 .space15 {margin-bottom:15px;}
@@ -92,6 +92,22 @@ p {
 	color: #e3007b;
 }
 
+/*
+    showing the moible navigation
+*/
+
+.left li a {
+	color: #fff;
+}
+
+.left li a:hover {
+	color:#e3007b;
+}
+
+.left .current a {
+	color: #e3007b;
+}
+
 .select-menu {
 	display: none;
 	background: none;
@@ -101,21 +117,13 @@ p {
 
 @media (max-width: 767px) {
 
-.navigation { display: none;margin:0;}
+.navigation { display: none;margin:0;} 
 
 .select-menu {
 	display: block;
-	background: #000;
-	width: 250px;
-	padding: 5px;
-	font-size: 12px;
-	border: 1px solid #181818;
-	height: 34px;
-	margin:10px auto ;
-	color:#555 !important;
 }
 }
-
+.current {}
 /*
     All footer style
 */

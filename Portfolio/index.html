@@ -22,6 +22,27 @@
 </head>
 <body>
     <div class="header">
+        <nav class="top-bar select-menu" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                    <h1><a href="#">Alex's Porfolio</a></h1>
+                </li>
+                <li class="toggle-topbar menu-icon">
+                    <a href="#"><span>Menu</span></a>
+                </li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="left">
+                    <li class="current"><a href="#top">Home</a></li>
+                    <li><a href="aboutme.html">About me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="github.html">MyGithub</a></li>
+                    <li><a href="contactme.html">Contact me</a></li>
+                </ul>
+            </section>
+        </nav>
+
         <div class="row">
             <div class="large-12 columns ">
                 <ul class="navigation">
@@ -94,7 +115,7 @@
                 Android developer<br />
                 WEB Developer<br />
                 Software Designer<br />
-                2d/3d Game Developer<br /></p>
+                2d/3d Game Developer<br />
                 <a href="#" class="button secondary small radius">View More &raquo;</a>
             </div>
         </article>
@@ -171,16 +192,21 @@
     <!--Scrips showing slider on top of the page-->
     <script src="Scripts/jquery1.7/jquery-1.8.2.min.js"></script>
     <script src="Scripts/foundation/foundation.js"></script>
+
     <script src="css/camera/scripts/camera.min.js"></script>
     <script src="Scripts/easing/jquery.easing.1.3.js"></script>
     <script src="css/camera/scripts/jquery.mobile.customized.min.js"></script>
+    <script src="Scripts/foundation/foundation.topbar.js"></script>
     <script type="text/javascript">function startCamera() { $('#camera_wrap').camera({ fx: 'scrollLeft', time: 2000, loader: 'none', playPause: false, height: '40%', pagination: true }); } $(function () { startCamera() });</script>
+    <script>
+    $(document).foundation();
+    </script>
     <div class="row">
         <div class="large-12 column">
             <hr>
         </div>
     </div>
-    
+
     <!--showing site map-->
     <footer>
 

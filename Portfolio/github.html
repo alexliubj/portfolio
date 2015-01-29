@@ -20,6 +20,26 @@
 </head>
 <body>
     <div class="header">
+        <nav class="top-bar select-menu" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                    <h1><a href="#">Alex's Porfolio</a></h1>
+                </li>
+                <li class="toggle-topbar menu-icon">
+                    <a href="#"><span>Menu</span></a>
+                </li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="left">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li class="current"><a href="#">MyGithub</a></li>
+                    <li><a href="contactme.html">Contact me</a></li>
+                </ul>
+            </section>
+        </nav>
         <div class="row">
             <div class="large-12 columns ">
                 <ul class="navigation">
@@ -79,6 +99,11 @@
     <script src="Scripts/foundation/foundation.js"></script>
     <script src="Scripts/foundation/foundation.joyride.js"></script>
     <script src="Scripts/foundation/jquery.cookie.js"></script>
+    <script src="Scripts/foundation/foundation.topbar.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+
     <script>
 
     $(document).ready(function () {
