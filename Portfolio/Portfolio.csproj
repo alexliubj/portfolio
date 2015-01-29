@@ -57,6 +57,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\images\icon3.png" />
+    <Content Include="Content\images\icon6.png" />
+    <Content Include="Content\images\icon5.png" />
+    <Content Include="Content\images\icon4.png" />
+    <Content Include="Content\images\sc3.png" />
+    <Content Include="Content\images\sc4.png" />
+    <Content Include="Content\images\icon1.png" />
+    <Content Include="Content\images\icon2.png" />
     <Content Include="privacy.html" />
     <Content Include="Scripts\vendor\custom.modernizr.js" />
     <Content Include="Scripts\vendor\jquery.js" />
@@ -67,11 +75,7 @@
     <Content Include="Content\fonts\ligature.css" />
     <Content Include="Content\fonts\LigatureSymbols-2.07.svg" />
     <Content Include="Content\images\Alex.PNG" />
-    <Content Include="Content\images\andromeda-orbit.jpg" />
     <Content Include="Content\images\github.PNG" />
-    <Content Include="Content\images\launch-orbit.jpg" />
-    <Content Include="Content\images\satelite-orbit.jpg" />
-    <Content Include="Content\images\thumb3.jpg" />
     <Content Include="css\camera\css\camera.css" />
     <Content Include="css\camera\images\blank.gif" />
     <Content Include="css\camera\images\camera-loader.gif" />

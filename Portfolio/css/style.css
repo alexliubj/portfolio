@@ -1,12 +1,14 @@
-.section_dark {background: #262626; border-top: 0; border-bottom: 1px dotted #999; padding: 20px 0 40px}
-.section_dark h2 {color: #999999; margin: 0 0 20px 0; font-size: 22px; text-align: center}
 
 /* 
    ------------------------------------------------------------------------------
 	Global Styles
    ------------------------------------------------------------------------------		
 */
-
+.section_dark {background: #262626; border-top: 0; border-bottom: 1px dotted #999; padding: 20px 0 40px}
+.section_dark h2 {color: #999999; margin: 0 0 20px 0; font-size: 22px; text-align: center}
+/*
+    For map
+*/
 .map-placeholder {background:#202020;border-top:1px solid #ccc;}
 
 body {
@@ -23,7 +25,9 @@ p {
 	font-weight:400;
 	color:#666;
 }
-
+/*
+    Padding from top
+*/
 .startPading {
     padding-top:5.55rem;
 }
@@ -31,6 +35,10 @@ p {
             height: 60%;
 }
 .no-padding {padding:0px;}
+
+/*
+    Padding ggto bottom
+*/
 .space10 {margin-bottom:10px;}
 .space15 {margin-bottom:15px;}
 .space20 {margin-bottom:20px;}
@@ -49,17 +57,11 @@ p {
 /* OTHER STYLES
 /*-----------------------------------------------------------------------------------*/
 
-#services   { background:#fff;padding:80px 0 65px 0;position:relative;}
-#portfolio  { background:#181818;padding:80px 0;position:relative;}
-#works      { background:#fff;padding:80px 0;position:relative;}
-#about      { background:#181818;padding:100px 0;position:relative;}
-#blog       { background:#fff;padding:100px 0 75px 0;position:relative;}
-#milestones { background:#181818;padding:100px 0;position:relative;}
-#testimonials   { background:#fff;padding:100px 0;position:relative;}
-#contact    { background:#181818;position:relative;}
-
 .header {background:#000;position:fixed;right:0px;left:0px;z-index:999;top: 0px;}
 
+/*
+    Navigation Styles
+*/
 .navigation {
 	margin:15px auto;
 	display:table;
@@ -89,9 +91,6 @@ p {
 	color: #e3007b;
 }
 
-
-.current {}
-
 .select-menu {
 	display: none;
 	background: none;
@@ -116,7 +115,9 @@ p {
 }
 }
 
-
+/*
+    All footer style
+*/
 #footer {
 	background:#fff;
 	padding:35px 0 15px;
