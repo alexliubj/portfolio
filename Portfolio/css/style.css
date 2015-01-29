@@ -116,9 +116,8 @@ p {
 }
 
 @media (max-width: 767px) {
-
 .navigation { display: none;margin:0;} 
-
+.logo-wrap { display: none;margin:0;} 
 .select-menu {
 	display: block;
 }

@@ -57,6 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\images\coollogo.png" />
+    <Content Include="Content\images\coollogo1.png" />
     <Content Include="Content\images\icon3.png" />
     <Content Include="Content\images\icon6.png" />
     <Content Include="Content\images\icon5.png" />
@@ -65,6 +67,7 @@
     <Content Include="Content\images\sc4.png" />
     <Content Include="Content\images\icon1.png" />
     <Content Include="Content\images\icon2.png" />
+    <Content Include="file.png" />
     <Content Include="privacy.html" />
     <Content Include="Scripts\vendor\custom.modernizr.js" />
     <Content Include="Scripts\vendor\jquery.js" />
