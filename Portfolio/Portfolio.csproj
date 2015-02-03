@@ -102,6 +102,7 @@
     <Content Include="Content\fonts\LigatureSymbols-2.07.eot" />
     <Content Include="Content\fonts\LigatureSymbols-2.07.ttf" />
     <Content Include="Content\fonts\LigatureSymbols-2.07.woff" />
+    <Content Include="Content\External Document.docx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
