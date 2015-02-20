@@ -67,7 +67,13 @@
     <Content Include="Content\images\sc4.png" />
     <Content Include="Content\images\icon1.png" />
     <Content Include="Content\images\icon2.png" />
+    <Content Include="css\bartender.css" />
+    <Content Include="css\bartender.min.css" />
     <Content Include="file.png" />
+    <Content Include="Mobile\img\a13.png" />
+    <Content Include="Mobile\img\b13.png" />
+    <Content Include="Mobile\script\jssor.js" />
+    <Content Include="Mobile\script\jssor.slider.js" />
     <Content Include="Mobile\services.html" />
     <Content Include="Mobile\projects.html" />
     <Content Include="Mobile\contactme.html" />
@@ -297,6 +303,7 @@
     <Content Include="Scripts\vendor\custom.modernizr.js" />
     <Content Include="Scripts\vendor\jquery.js" />
     <Content Include="Scripts\vendor\jquery.magnific-popup.js" />
+    <Content Include="Scripts\vendor\redirection-mobile.js" />
     <Content Include="Scripts\vendor\respond.js" />
     <Content Include="Scripts\vendor\zepto.js" />
     <Content Include="terms.html" />
@@ -371,7 +378,9 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Mobile\css\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

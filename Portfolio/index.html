@@ -19,6 +19,17 @@
     <link href="Content/foundation/foundation.css" rel="stylesheet" />
     <link href="Content/foundation/normalize.css" rel="stylesheet" />
     <link href="Content/fonts/ligature.css" rel="stylesheet" />
+    <script src="Scripts/vendor/redirection-mobile.js"></script>
+    <script>
+        var currentURL = document.URL
+        var n = currentURL.search("index.html");
+        var m = currentURL.search("//");
+        var newcurrentURL = currentURL.substring(m, n);
+        SA.redirection_mobile({
+            mobile_url: newcurrentURL + "Mobile/index.html",
+            mobile_prefix: "http"
+        });
+    </script>
 </head>
 <body>
     <div class="header">
@@ -87,7 +98,7 @@
     </div>
     -->
     <!-- Main wrap start -->
-    
+
     <h2 style="text-align:center">Personal Tagline</h2>
     <div class="row">
         <article class="large-6 columns">
