@@ -68,8 +68,14 @@
     <Content Include="Content\images\icon1.png" />
     <Content Include="Content\images\icon2.png" />
     <Content Include="file.png" />
+    <Content Include="Mobile\services.html" />
+    <Content Include="Mobile\projects.html" />
+    <Content Include="Mobile\contactme.html" />
+    <Content Include="Mobile\aboutme.html" />
     <Content Include="Mobile\index.html" />
     <Content Include="privacy.html" />
+    <Content Include="Scripts\jqueryMobile\custom.css" />
+    <Content Include="Scripts\jqueryMobile\custom.min.css" />
     <Content Include="Scripts\jqueryMobile\images\ajax-loader.gif" />
     <Content Include="Scripts\jqueryMobile\images\icons-png\action-black.png" />
     <Content Include="Scripts\jqueryMobile\images\icons-png\action-white.png" />
@@ -279,6 +285,7 @@
     <Content Include="Scripts\jqueryMobile\jquery.mobile.external-png-1.4.5.min.css" />
     <Content Include="Scripts\jqueryMobile\jquery.mobile.icons-1.4.5.css" />
     <Content Include="Scripts\jqueryMobile\jquery.mobile.icons-1.4.5.min.css" />
+    <Content Include="Scripts\jqueryMobile\jquery.mobile.icons.min.css" />
     <Content Include="Scripts\jqueryMobile\jquery.mobile.inline-png-1.4.5.css" />
     <Content Include="Scripts\jqueryMobile\jquery.mobile.inline-png-1.4.5.min.css" />
     <Content Include="Scripts\jqueryMobile\jquery.mobile.inline-svg-1.4.5.css" />

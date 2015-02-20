@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link href="../Scripts/jqueryMobile/custom.min.css" rel="stylesheet" />
+    <link href="../Scripts/jqueryMobile/jquery.mobile.icons.min.css" rel="stylesheet" />
+    <link href="../Scripts/jqueryMobile/custom.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -24,28 +27,24 @@
                 <li data-role="list-divider" role="heading">
                     Menu
                 </li>
+
                 <li data-theme="a">
-                    <a href="#page1" data-transition="slide">
-                        Home
-                    </a>
-                </li>
-                <li data-theme="a">
-                    <a href="#page2" data-transition="slide">
+                    <a href="aboutme.html" data-transition="slide">
                         About Me
                     </a>
                 </li>
                 <li data-theme="a">
-                    <a href="#page3" data-transition="slide">
+                    <a href="contactme.html" data-transition="slide">
                         Contact Me
                     </a>
                 </li>
                 <li data-theme="a">
-                    <a href="#page7" data-transition="slide">
+                    <a href="projects.html" data-transition="slide">
                         Projects
                     </a>
                 </li>
                 <li data-theme="a">
-                    <a href="#page8" data-transition="slide">
+                    <a href="services.html" data-transition="slide">
                         Services
                     </a>
                 </li>
@@ -53,7 +52,7 @@
         </div>
         <div data-theme="a" data-role="header" data-position="fixed">
             <a data-controltype="panelbutton" data-role="button" data-inline="false"
-               href="#panel1" data-icon="bars" data-iconpos="notext" class="ui-btn-left">
+               href="#panel1" data-icon="bars" data-iconpos="notext" class="btn ui-btn-left">
             </a>
             <h4>
                 Home
@@ -106,20 +105,23 @@
                 </a>
             </div>
         </div>
-        <div data-role="navbar" data-iconpos="right" data-theme="a">
+        <div data-role="footer" class="footer-docs" data-theme="c">
+            <p>&copy; 2011 The jQuery Project</p>
+        </div>
+        <div data-role="navbar" data-iconpos="right">
             <ul>
-                <li>
-                    <a href="#page1" data-transition="fade" data-theme="" data-icon="home">
+                <li >
+                    <a href="#" class="btn ui-btn-active" data-transition="fade" data-icon="home">
                         Home
                     </a>
                 </li>
                 <li>
-                    <a href="#page2" data-transition="fade" data-theme="" data-icon="star">
+                    <a href="aboutme.html" data-transition="fade"data-icon="star">
                         About Me
                     </a>
                 </li>
                 <li>
-                    <a href="#page1" data-transition="fade" data-theme="" data-icon="info">
+                    <a href="contactme.html" data-transition="fade"data-icon="info">
                         Contact Me
                     </a>
                 </li>
