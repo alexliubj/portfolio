@@ -70,6 +70,8 @@
     <Content Include="css\bartender.css" />
     <Content Include="css\bartender.min.css" />
     <Content Include="file.png" />
+    <Content Include="Mobile\css\gridviews.css" />
+    <Content Include="Mobile\css\table.css" />
     <Content Include="Mobile\img\a13.png" />
     <Content Include="Mobile\img\b13.png" />
     <Content Include="Mobile\script\jssor.js" />
@@ -378,9 +380,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Mobile\css\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

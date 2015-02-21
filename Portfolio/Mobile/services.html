@@ -17,6 +17,7 @@
     <link href="../Scripts/jqueryMobile/custom.min.css" rel="stylesheet" />
     <link href="../Scripts/jqueryMobile/jquery.mobile.icons.min.css" rel="stylesheet" />
     <link href="../Scripts/jqueryMobile/custom.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -30,44 +31,81 @@
                 Services
             </h3>
         </div>
-        <div data-role="content">
-            <div data-controltype="textblock">
-                <p>
-                    Personal&nbsp;Tagline
-                </p>
-            </div>
-            <div data-controltype="textblock">
-                <p>
-                    With Codiqa you can embed video, add forms, lists, date pickers, and a
-                    whole lot more!
-                </p>
-            </div>
-            <div data-controltype="textblock">
-                <p>
-                    mission&nbsp;statement
-                </p>
-            </div>
-            <div data-controltype="textblock">
-                <p>
-                    With Codiqa you can embed video, add forms, lists, date pickers, and a
-                    whole lot more!
-                </p>
-            </div>
-            <div data-controltype="textblock">
-                <p>
-                    bio
-                    <br>
-                    section
-                </p>
-            </div>
-            <div data-controltype="textblock">
-                <p>
-                    copyright
-                    <br>
-                    Statement&nbsp;
-                </p>
-            </div>
+
+        <table data-role="table" id="phone-table" data-mode="columntoggle" data-column-btn-text="Compare..." data-column-btn-theme="a" class="phone-compare ui-shadow table-stroke">
+            <thead>
+                <tr>
+                    <th class="label">Model</th>
+                    <th>
+                        <h4>Apple</h4>
+                        <h3>iPhone 5</h3>
+                    </th>
+                    <th data-priority="1">
+                        <h4>Samsung</h4>
+                        <h3>Galaxy S III</h3>
+                    </th>
+                    <th data-priority="2">
+                        <h4>Nokia</h4>
+                        <h3>Lumia 920</h3>
+                    </th>
+                    <th data-priority="3">
+                        <h4>HTC</h4>
+                        <h3>One X</h3>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="photos">
+                    <th class="label">Photo</th>
+                    <td><a href="#img-iphone5" data-rel="popup" data-position-to="window"><img src="../_assets/img/phone_iphone5.png"></a></td>
+                    <td><a href="#img-galaxy" data-rel="popup" data-position-to="window"><img src="../_assets/img/phone_galaxy3.png"></a></td>
+                    <td><a href="#img-lumia" data-rel="popup" data-position-to="window"><img src="../_assets/img/phone_lumia920.png"></a></td>
+                    <td><a href="#img-onex" data-rel="popup" data-position-to="window"><img src="../_assets/img/phone_onex.png"></a></td>
+                </tr>
+                <tr>
+                    <th class="label">Height</th>
+                    <td>4.87"</td>
+                    <td>5.38"</td>
+                    <td>5.11"</td>
+                    <td>5.3"</td>
+                </tr>
+                <tr>
+                    <th class="label">Width</th>
+                    <td>2.31"</td>
+                    <td>2.78"</td>
+                    <td>2.79"</td>
+                    <td>2.75"</td>
+                </tr>
+                <tr>
+                    <th class="label">Depth</th>
+                    <td>0.3"</td>
+                    <td>0.34"</td>
+                    <td>0.42"</td>
+                    <td>0.37"</td>
+                </tr>
+                <tr>
+                    <th class="label">Weight (lbs.)</th>
+                    <td>0.25</td>
+                    <td>0.29</td>
+                    <td>0.41</td>
+                    <td>0.29</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- Popups for lightbox images -->
+        <div id="img-iphone5" data-role="popup" data-overlay-theme="a">
+            <img src="../_assets/img/phone_iphone5.png">
         </div>
+        <div id="img-galaxy" data-role="popup" data-overlay-theme="a">
+            <img src="../_assets/img/phone_galaxy3.png">
+        </div>
+        <div id="img-lumia" data-role="popup" data-overlay-theme="a">
+            <img src="../_assets/img/phone_lumia920.png">
+        </div>
+        <div id="img-onex" data-role="popup" data-overlay-theme="a">
+            <img src="../_assets/img/phone_onex.png">
+        </div>
+       
         <div data-role="navbar" data-iconpos="right">
             <ul>
                 <li>
