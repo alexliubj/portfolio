@@ -70,10 +70,16 @@
     <Content Include="css\bartender.css" />
     <Content Include="css\bartender.min.css" />
     <Content Include="file.png" />
+    <Content Include="Mobile\css\style.css" />
     <Content Include="Mobile\css\gridviews.css" />
     <Content Include="Mobile\css\table.css" />
     <Content Include="Mobile\img\a13.png" />
+    <Content Include="Mobile\img\android.png" />
     <Content Include="Mobile\img\b13.png" />
+    <Content Include="Mobile\img\cocos2d.png" />
+    <Content Include="Mobile\img\iOS.png" />
+    <Content Include="Mobile\img\projects.png" />
+    <Content Include="Mobile\img\services.png" />
     <Content Include="Mobile\script\jssor.js" />
     <Content Include="Mobile\script\jssor.slider.js" />
     <Content Include="Mobile\services.html" />

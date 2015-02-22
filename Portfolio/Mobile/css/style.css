@@ -1,0 +1,13 @@
+/*
+    custom css
+*/
+
+.divTextCenter {
+    text-align:center;
+}
+.startPadingMap {
+            height: 60%;
+}
+
+.map-canvas { width: 100%; height: 100%; padding: 0; }
+.map-page{ width: 100%; height: 100%; padding: 0; }

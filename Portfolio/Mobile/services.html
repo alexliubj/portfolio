@@ -18,6 +18,7 @@
     <link href="../Scripts/jqueryMobile/jquery.mobile.icons.min.css" rel="stylesheet" />
     <link href="../Scripts/jqueryMobile/custom.css" rel="stylesheet" />
     <link href="css/table.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -35,77 +36,71 @@
         <table data-role="table" id="phone-table" data-mode="columntoggle" data-column-btn-text="Compare..." data-column-btn-theme="a" class="phone-compare ui-shadow table-stroke">
             <thead>
                 <tr>
-                    <th class="label">Model</th>
+                    <th class="label">Services</th>
                     <th>
-                        <h4>Apple</h4>
-                        <h3>iPhone 5</h3>
+                        <h4>iOS App Development</h4>
                     </th>
                     <th data-priority="1">
-                        <h4>Samsung</h4>
-                        <h3>Galaxy S III</h3>
+                        <h4>Android App Development</h4>
                     </th>
                     <th data-priority="2">
-                        <h4>Nokia</h4>
-                        <h3>Lumia 920</h3>
-                    </th>
-                    <th data-priority="3">
-                        <h4>HTC</h4>
-                        <h3>One X</h3>
+                        <h4>Game Development</h4>
                     </th>
                 </tr>
             </thead>
             <tbody>
                 <tr class="photos">
                     <th class="label">Photo</th>
-                    <td><a href="#img-iphone5" data-rel="popup" data-position-to="window"><img src="../_assets/img/phone_iphone5.png"></a></td>
-                    <td><a href="#img-galaxy" data-rel="popup" data-position-to="window"><img src="../_assets/img/phone_galaxy3.png"></a></td>
-                    <td><a href="#img-lumia" data-rel="popup" data-position-to="window"><img src="../_assets/img/phone_lumia920.png"></a></td>
-                    <td><a href="#img-onex" data-rel="popup" data-position-to="window"><img src="../_assets/img/phone_onex.png"></a></td>
+                    <td>
+                        <a href="#img-iphone5" data-rel="popup" data-position-to="window">
+                            <img src="img/iOS.png" alt="" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#img-galaxy" data-rel="popup" data-position-to="window">
+                            <img src="img/android.png" alt="" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#img-lumia" data-rel="popup" data-position-to="window">
+                            <img src="img/cocos2d.png" alt="" />
+                        </a>
+                    </td>
                 </tr>
                 <tr>
-                    <th class="label">Height</th>
-                    <td>4.87"</td>
-                    <td>5.38"</td>
-                    <td>5.11"</td>
-                    <td>5.3"</td>
+                    <th class="label">Rate (per hour)</th>
+                    <td>$35.99</td>
+                    <td>$25.99</td>
+                    <td>$35.99</td>
                 </tr>
                 <tr>
-                    <th class="label">Width</th>
-                    <td>2.31"</td>
-                    <td>2.78"</td>
-                    <td>2.79"</td>
-                    <td>2.75"</td>
+                    <th class="label">Feature</th>
+                    <td>Hi performance</td>
+                    <td>Hi performance</td>
+                    <td>Cross-platform</td>
                 </tr>
                 <tr>
-                    <th class="label">Depth</th>
-                    <td>0.3"</td>
-                    <td>0.34"</td>
-                    <td>0.42"</td>
-                    <td>0.37"</td>
+                    <th class="label">Framework</th>
+                    <td>Cocoa</td>
+                    <td>ADK</td>
+                    <td>Cocos2d-x</td>
                 </tr>
-                <tr>
-                    <th class="label">Weight (lbs.)</th>
-                    <td>0.25</td>
-                    <td>0.29</td>
-                    <td>0.41</td>
-                    <td>0.29</td>
-                </tr>
+               
             </tbody>
         </table>
         <!-- Popups for lightbox images -->
         <div id="img-iphone5" data-role="popup" data-overlay-theme="a">
-            <img src="../_assets/img/phone_iphone5.png">
+            <img src="img/iOS.png" alt="" />
         </div>
         <div id="img-galaxy" data-role="popup" data-overlay-theme="a">
-            <img src="../_assets/img/phone_galaxy3.png">
+            <img src="img/android.png" alt="" />
         </div>
         <div id="img-lumia" data-role="popup" data-overlay-theme="a">
-            <img src="../_assets/img/phone_lumia920.png">
+            <img src="img/cocos2d.png" alt="" />
         </div>
-        <div id="img-onex" data-role="popup" data-overlay-theme="a">
-            <img src="../_assets/img/phone_onex.png">
+        <div data-role="footer" class="footer-docs" data-theme="c">
+            <p class="divTextCenter">&copy; 2015 Bo Liu(Alex)</p>
         </div>
-       
         <div data-role="navbar" data-iconpos="right">
             <ul>
                 <li>

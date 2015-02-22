@@ -17,6 +17,46 @@
     <link href="../Scripts/jqueryMobile/custom.min.css" rel="stylesheet" />
     <link href="../Scripts/jqueryMobile/jquery.mobile.icons.min.css" rel="stylesheet" />
     <link href="../Scripts/jqueryMobile/custom.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- Google map show address-->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script>
+
+        /*
+    * Google Maps documentation: http://code.google.com/apis/maps/documentation/javascript/basics.html
+    * Geolocation documentation: http://dev.w3.org/geo/api/spec-source.html
+    */
+        $(document).on("pageinit", "#map-page", function () {
+            var defaultLatLng = new google.maps.LatLng(34.0983425, -118.3267434);  // Default to Hollywood, CA when no geolocation support
+            if (navigator.geolocation) {
+                function success(pos) {
+                    // Location found, show map with these coordinates
+                    drawMap(new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude));
+                }
+                function fail(error) {
+                    drawMap(defaultLatLng);  // Failed to find location, show default map
+                }
+                // Find the users current position.  Cache the location for 5 minutes, timeout after 6 seconds
+                navigator.geolocation.getCurrentPosition(success, fail, { maximumAge: 500000, enableHighAccuracy: true, timeout: 6000 });
+            } else {
+                drawMap(defaultLatLng);  // No geolocation support, show default map
+            }
+            function drawMap(latlng) {
+                var myOptions = {
+                    zoom: 10,
+                    center: latlng,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+                var map = new google.maps.Map(document.getElementById("map-canvas"), myOptions);
+                // Add an overlay to the map of current lat/lng
+                var marker = new google.maps.Marker({
+                    position: latlng,
+                    map: map,
+                    title: "Greetings!"
+                });
+            }
+        });
+    </script>
 </head>
 
 <body>
@@ -30,8 +70,6 @@
             </h3>
         </div>
         <div data-role="content">
-            <div id="googlemapsjs1" class="google-map" style="width: 288px; height: 200px; margin-left: auto; margin-right: auto">
-            </div>
             <div data-controltype="textblock">
                 <p>
                     <b>
@@ -41,13 +79,13 @@
             </div>
             <div data-role="fieldcontain" data-controltype="textinput">
                 <label for="textinput3">
-                    Title
+                    Name:
                 </label>
                 <input name="" id="textinput3" placeholder="" value="" type="text">
             </div>
             <div data-role="fieldcontain" data-controltype="textinput">
                 <label for="textinput4">
-                    Title
+                    Message:
                 </label>
                 <input name="" id="textinput4" placeholder="" value="" type="text">
             </div>
@@ -64,9 +102,12 @@
                     </b>
                 </p>
             </div>
-            <a data-role="button" href="#page3">
+            <a data-role="button" href="tel:416-833-4368">
                 416-833-4368
             </a>
+        </div>
+        <div data-role="footer" class="footer-docs" data-theme="c">
+            <p class="divTextCenter">&copy; 2015 Bo Liu(Alex)</p>
         </div>
         <div data-role="navbar" data-iconpos="right">
             <ul>
@@ -76,18 +117,22 @@
                     </a>
                 </li>
                 <li>
-                    <a href="aboutme.html" data-transition="fade"  data-icon="star">
+                    <a href="aboutme.html" data-transition="fade" data-icon="star">
                         About Me
                     </a>
                 </li>
                 <li>
-                    <a href="#" data-transition="fade" class="btn ui-btn-active"  data-icon="info">
+                    <a href="#" data-transition="fade" class="btn ui-btn-active" data-icon="info">
                         Contact Me
                     </a>
                 </li>
             </ul>
         </div>
     </div>
-
+    <div data-url="map-page" data-role="page" id="map-page" class="map-canvas">
+        <div role="main" class="ui-content map-canvas" id="map-canvas">
+            <!-- map loads here... -->
+        </div>
+    </div>
 </body>
 </html>
