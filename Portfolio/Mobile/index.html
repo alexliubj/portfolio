@@ -156,7 +156,7 @@
             </div>
             <div data-controltype="textblock">
                 <p class="divTextCenter">
-                    <h3>Welcome to my website!</h3> 
+                    <h3>Welcome to my website!</h3>
                 </p>
                 <p>
                     About me <br />
@@ -170,28 +170,21 @@
                     Software Designer<br />
                     2d/3d Game Developer<br />
                 </p>
-                
+
             </div>
             <div class="ui-grid-a">
                 <div class="ui-block-a">
-                    <div style="width: 100%; height: 150px; position: relative; background-color: #fbfbfb;"
+                    <div class="grids150"
                          data-controltype="image">
                         <a href="projects.html" data-transition="slide">
-
-
-                            <img src="img/projects.png" alt="image" style="display: block;
-    margin-left: auto;
-    margin-right: auto">
+                            <img src="img/projects.png" alt="image" class="middleImage">
                         </a>
                     </div>
                 </div>
                 <div class="ui-block-b">
-                    <div style="width: 100%; height: 150px; position: relative; background-color: #fbfbfb; "
-                         data-controltype="image">
+                    <div class="grids150">
                         <a href="services.html" data-transition="slide">
-                            <img src="img/services.png" alt="image" style="display: block;
-    margin-left: auto;
-    margin-right: auto">
+                            <img src="img/services.png" alt="image" class="middleImage">
                         </a>
 
                     </div>
@@ -200,6 +193,7 @@
 
             <h3>Featured work</h3>
 
+            <!--Slider from open source jssor-->
             <div id="slider1_container" style="position: relative; margin: 0 auto;
         top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
                 <!-- Loading Screen -->
@@ -314,46 +308,45 @@
                 <!-- Arrow Navigator Skin End -->
                 <a style="display: none" href="http://www.jssor.com">jQuery Slider</a>
             </div>
-
+            <!--slider ends-->
             <div>
                 <a href="#" onclick="javascript:redirectFull()" data-transition=" fade">
                     <p class="divTextCenter">Desktop Version</p>
                 </a>
             </div>
         </div>
-        <div data-role="footer" class="footer-docs" data-theme="b">
-            <p class="divTextCenter">&copy; 2015 Bo Liu(Alex)</p>
+        <div data-role="footer" data-position="fixed" data-theme="y">
+            <div data-role="footer" class="footer-docs" data-theme="c">
+                <p class="divTextCenter">&copy; 2015 Bo Liu(Alex)</p>
+            </div>
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li>
+                        <a href="#" class="btn ui-btn-active" data-transition="fade" data-icon="home">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="aboutme.html" data-transition="fade" data-icon="star">
+                            About Me
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contactme.html" data-transition="fade" data-icon="info">
+                            Contact Me
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-
-        <div data-role="navbar" data-iconpos="right">
-            <ul>
-                <li>
-                    <a href="#" class="btn ui-btn-active" data-transition="fade" data-icon="home">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="aboutme.html" data-transition="fade" data-icon="star">
-                        About Me
-                    </a>
-                </li>
-                <li>
-                    <a href="contactme.html" data-transition="fade" data-icon="info">
-                        Contact Me
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <script>
-        function redirectFull() {
-            var currentURL = document.URL;
-            var n = currentURL.search("Mobile/index.html");
-            var newcurrentURL = currentURL.substring(0, n);
-            window.location.href = newcurrentURL;
-        }
-    </script>
+        <!--redirect to full version-->
+        <script>
+            function redirectFull() {
+                var currentURL = document.URL;
+                var n = currentURL.search("Mobile/index.html");
+                var newcurrentURL = currentURL.substring(0, n);
+                window.location.href = newcurrentURL;
+            }
+        </script>
 </body>
-
 </html>

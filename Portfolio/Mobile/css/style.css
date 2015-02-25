@@ -8,6 +8,27 @@
 .startPadingMap {
             height: 60%;
 }
+.middleImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
 
-.map-canvas { width: 100%; height: 100%; padding: 0; }
-.map-page{ width: 100%; height: 100%; padding: 0; }
+.grids150 {
+    width: 100%; 
+    height: 150px; 
+    position: relative; 
+    background-color: #fbfbfb;
+}
+.grids {
+    width: 100%; 
+    height: 100px; 
+    position: relative; 
+    background-color: #fbfbfb;
+}
+.map-canvas { width: 100%; 
+              height: 100%; 
+              padding: 0; }
+.map-page{ width: 100%; 
+           height: 100%; 
+           padding: 0; }

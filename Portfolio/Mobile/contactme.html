@@ -2,7 +2,7 @@
     contactme.html
     Author: BO LIU(Alex)
     Website name: BO LIU (Alex) Portfolio
-    Description: index home page
+    Description: contact me page
 -->
 
 <!DOCTYPE html>
@@ -107,33 +107,34 @@
                 416-833-4368
             </a>
         </div>
-        <div data-role="footer" class="footer-docs" data-theme="c">
-            <p class="divTextCenter">&copy; 2015 Bo Liu(Alex)</p>
+        <div data-role="footer" data-position="fixed" data-theme="y">
+            <div data-role="footer" class="footer-docs" data-theme="c">
+                <p class="divTextCenter">&copy; 2015 Bo Liu(Alex)</p>
+            </div>
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li>
+                        <a href="index.html" data-transition="fade" data-icon="home">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="aboutme.html" data-transition="fade" data-icon="star">
+                            About Me
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-transition="fade" class="btn ui-btn-active" data-icon="info">
+                            Contact Me
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div data-role="navbar" data-iconpos="right">
-            <ul>
-                <li>
-                    <a href="index.html" data-transition="fade" data-icon="home">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="aboutme.html" data-transition="fade" data-icon="star">
-                        About Me
-                    </a>
-                </li>
-                <li>
-                    <a href="#" data-transition="fade" class="btn ui-btn-active" data-icon="info">
-                        Contact Me
-                    </a>
-                </li>
-            </ul>
+        <div data-url="map-page" data-role="page" id="map-page" class="map-canvas">
+            <div role="main" class="ui-content map-canvas" id="map-canvas">
+                <!-- map loads here... -->
+            </div>
         </div>
-    </div>
-    <div data-url="map-page" data-role="page" id="map-page" class="map-canvas">
-        <div role="main" class="ui-content map-canvas" id="map-canvas">
-            <!-- map loads here... -->
-        </div>
-    </div>
 </body>
 </html>

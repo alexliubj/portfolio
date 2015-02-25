@@ -1,15 +1,15 @@
 ﻿<!--
-    Index.html
+    aboutme.html
     Author: BO LIU(Alex)
     Website name: BO LIU (Alex) Portfolio
-    Description: index home page
+    Description: about me page
 -->
 <!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <title>BO LIU (Alex) Portfolio </title>
+    <title>BO LIU (Alex) About me </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
@@ -31,11 +31,9 @@
             </h3>
         </div>
         <div data-role="content">
-            <div style="width: 100%; height: 100px; position: relative; background-color: #fbfbfb;"
+            <div class="grids"
                  data-controltype="image">
-                <img src="img/Alex_thumb.PNG" alt="image" style="display: block;
-                     margin-left: auto;
-                        margin-right: auto">
+                <img src="img/Alex_thumb.PNG" alt="image" class="middleImage">
             </div>
             <div data-controltype="textblock">
                 <p>
@@ -63,29 +61,31 @@
             </div>
            
         </div>
-        <div data-role="footer" class="footer-docs" data-theme="c">
-            <p class="divTextCenter">&copy; 2015 Bo Liu(Alex)</p>
+       
+        <div data-role="footer" data-position="fixed" data-theme="y">
+            <div data-role="footer" class="footer-docs" data-theme="c">
+                <p class="divTextCenter">&copy; 2015 Bo Liu(Alex)</p>
+            </div>
+            <div data-role="navbar" data-iconpos="top" >
+                <ul>
+                    <li>
+                        <a href="index.html" data-transition="fade" data-icon="home">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn ui-btn-active" data-transition="fade" data-icon="star">
+                            About Me
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contactme.html" data-transition="fade" data-icon="info">
+                            Contact Me
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div data-role="navbar" data-iconpos="right">
-            <ul>
-                <li>
-                    <a href="index.html" data-transition="fade" data-icon="home">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="btn ui-btn-active" data-transition="fade" data-icon="star">
-                        About Me
-                    </a>
-                </li>
-                <li>
-                    <a href="contactme.html" data-transition="fade" data-icon="info">
-                        Contact Me
-                    </a>
-                </li>
-            </ul>
         </div>
-    </div>
-
 </body>
 </html>

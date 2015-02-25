@@ -69,6 +69,7 @@
     <Content Include="Content\images\icon2.png" />
     <Content Include="css\bartender.css" />
     <Content Include="css\bartender.min.css" />
+    <Content Include="Mobile\img\Alex_thumb.PNG" />
     <Content Include="file.png" />
     <Content Include="Mobile\css\style.css" />
     <Content Include="Mobile\css\gridviews.css" />
