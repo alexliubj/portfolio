@@ -1,12 +1,1 @@
-C:\Users\AlexLiu\Downloads\portfolio-master\portfolio-master\Portfolio\bin\Portfolio.dll.config
-C:\Users\AlexLiu\Downloads\portfolio-master\portfolio-master\Portfolio\bin\Portfolio.dll
-C:\Users\AlexLiu\Downloads\portfolio-master\portfolio-master\Portfolio\bin\Portfolio.pdb
-C:\Users\AlexLiu\Downloads\portfolio-master\portfolio-master\Portfolio\obj\Debug\Portfolio.csprojResolveAssemblyReference.cache
-C:\Users\AlexLiu\Downloads\portfolio-master\portfolio-master\Portfolio\obj\Debug\Portfolio.dll
-C:\Users\AlexLiu\Downloads\portfolio-master\portfolio-master\Portfolio\obj\Debug\Portfolio.pdb
-C:\Users\AlexLiu\Desktop\Winter2014\portfolio\Portfolio\bin\Portfolio.dll.config
-C:\Users\AlexLiu\Desktop\Winter2014\portfolio\Portfolio\bin\Portfolio.dll
-C:\Users\AlexLiu\Desktop\Winter2014\portfolio\Portfolio\bin\Portfolio.pdb
 C:\Users\AlexLiu\Desktop\Winter2014\portfolio\Portfolio\obj\Debug\Portfolio.csprojResolveAssemblyReference.cache
-C:\Users\AlexLiu\Desktop\Winter2014\portfolio\Portfolio\obj\Debug\Portfolio.dll
-C:\Users\AlexLiu\Desktop\Winter2014\portfolio\Portfolio\obj\Debug\Portfolio.pdb
