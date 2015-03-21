@@ -28,7 +28,7 @@ router.get('/github', function(req, res, next) {
 
 /* GET contact me page. */
 router.get('/contactme', function(req, res, next) {
-  res.render('contact', { title: 'Contact Me' });
+  res.render('contact', { title: 'Contact me' });
 });
 
 module.exports = router;
