@@ -12,25 +12,27 @@
             </ul>
             <section class="top-bar-section">
                 <ul class="left">
-                    <li class="current"><a href="/">Home</a></li>
-                    <li><a href="/aboutme">About me</a></li>
-                    <li><a href="/projects">Projects</a></li>
-                    <li><a href="/services">Services</a></li>
-                    <li><a href="/github">MyGithub</a></li>
-                    <li><a href="/contactme">Contact me</a></li>
+                                    <li <% if (title === 'Portfolio') { %>class="current" <% } %> ><a href="/aboutme">Home</a></li>
+
+                    <li <% if (title === 'About Me') { %>class="current" <% } %> ><a href="/aboutme">About me</a></li>
+                     <li <% if (title === 'Projects') { %>class="current" <% } %> ><a href="/projects">Projects</a></li>
+                    <li <% if (title === 'Services') { %>class="current" <% } %> ><a href="/services">Services</a></li>
+                    <li <% if (title === 'Github') { %>class="current" <% } %> ><a href="/github">MyGithub</a></li>
+                    <li <% if (title === 'Contact me') { %>class="current" <% } %> ><a href="/contactme">Contact me</a></li>
                 </ul>
             </section>
         </nav>
 
         <div class="row">
+
             <div class="large-10 columns ">
                 <ul class="navigation">
-                        <li class="current"><a href="/">Home</a></li>
-                    <li><a href="/aboutme">About me</a></li>
-                    <li><a href="/projects">Projects</a></li>
-                    <li><a href="/services">Services</a></li>
-                    <li><a href="/github">MyGithub</a></li>
-                    <li><a href="/contactme">Contact me</a></li>
+                            <li <% if (title === 'Portfolio') { %>class="current" <% } %> ><a href="/aboutme">Home</a></li>
+                    <li <% if (title === 'About Me') { %>class="current" <% } %> ><a href="/aboutme">About me</a></li>
+                     <li <% if (title === 'Projects') { %>class="current" <% } %> ><a href="/projects">Projects</a></li>
+                    <li <% if (title === 'Services') { %>class="current" <% } %> ><a href="/services">Services</a></li>
+                    <li <% if (title === 'Github') { %>class="current" <% } %> ><a href="/github">MyGithub</a></li>
+                    <li <% if (title === 'Contact me') { %>class="current" <% } %> ><a href="/contactme">Contact me</a></li>
                 </ul>
             </div>
         </div>
