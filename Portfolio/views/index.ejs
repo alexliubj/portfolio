@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width">
+    <title><%= title %></title>
+    <!-- CSS Files -->
+    <link href="/css/reset.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <link href="/css/slider.css" rel="stylesheet" />
+    <link href="/css/camera/css/camera.css" rel="stylesheet" />
+    <link href="/css/Content/foundation/foundation.css" rel="stylesheet" />
+    <link href="/css/Content/foundation/normalize.css" rel="stylesheet" />
+    <link href="/css/Content/fonts/ligature.css" rel="stylesheet" />
+    <script src="/Scripts/vendor/redirection-mobile.js"></script>
+     <script src="/Scripts/app.js"></script>
+
+    <script>
+        var currentURL = document.URL
+        var n = currentURL.search("index.html");
+        var m = currentURL.search("//");
+        var newcurrentURL = currentURL.substring(m, n);
+        SA.redirection_mobile({
+            mobile_url: newcurrentURL + "Mobile/index.html",
+            mobile_prefix: "http"
+        });
+    </script>
+</head>
+<body>
+    <% include partials/header.ejs %>
+    
+    <%    if(title == "Portfolio")  {%>
+    <%    include partials/portfolio.ejs %>
+    <%    }  %>  
+
+    <%    if(title == "Projects")  {%>
+    <%    include partials/projects.ejs %>
+    <%    }  %>     
+
+    <%    if(title == "About Me")  {%>
+    <%    include partials/aboutme.ejs %>
+    <%    }  %>      
+    
+    <%    if(title == "Services")  {%>
+    <%    include partials/services.ejs %>
+    <%    }  %> 
+
+    <%    if(title == "Github")  {%>
+    <%    include partials/github.ejs %>
+    <%    }  %>      
+    
+    <%    if(title == "Contact me")  {%>
+    <%    include partials/contactme.ejs %>
+    <%    }  %> 
+    
+    <% include partials/footer.ejs %>
+</body>
+</html>

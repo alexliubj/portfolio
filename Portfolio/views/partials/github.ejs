@@ -1,0 +1,46 @@
+
+    <div  class="row startPading">
+        <div class="large-2 columns"></div>
+        <div class="large-10 columns " id="firstStop">
+            <a role="button" aria-label="submit form" href="https://github.com/alexliubj" class="button">View My Github</a>
+        </div>
+    </div>
+
+    <div class="row ">
+        <div class="large-2 columns"></div>
+        <div class="large-10 columns ">
+            <img src="Content/images/github.PNG" />
+        </div>
+    </div>
+    
+
+    <div class="row">
+        <div class="large-12 column">
+            <hr>
+        </div>
+    </div>
+
+    <!-- Script to show Joyride from foundation JS-->
+    <script src="Scripts/vendor/jquery.js"></script>
+    <script src="Scripts/foundation/foundation.js"></script>
+    <script src="Scripts/foundation/foundation.joyride.js"></script>
+    <script src="Scripts/foundation/jquery.cookie.js"></script>
+    <script src="Scripts/foundation/foundation.topbar.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+
+    <script>
+
+    $(document).ready(function () {
+        $(document).foundation('joyride', 'start');
+    });
+
+    </script>
+
+    <ol class="joyride-list" data-joyride>
+        <li data-id="firstStop" data-button="End" data-options="tip_location: bottom; prev_button: false">
+            <p>The following picture is my screen shot of Github.Please click to view more details.</p>
+        </li>
+        
+    </ol>
