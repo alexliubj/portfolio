@@ -1,5 +1,5 @@
 {
-  "name": "expressPortfolio",
+  "name": "Portfolio",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -13,5 +13,12 @@
     "express": "~4.12.0",
     "morgan": "~1.5.1",
     "serve-favicon": "~2.2.0"
-  }
+  },
+  "description": "Express Portfolio",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/alexliubj/portfolio.git"
+},
 }
